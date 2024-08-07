@@ -1,0 +1,88 @@
+/* Stats.css */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2f2f2f;
+  padding: 35px;
+  color: white;
+  border-radius: 10px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+}
+
+.stat-item > *:first-child {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.stat-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.increase {
+  color: #4caf50;
+}
+
+.decrease {
+  color: #f44336;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .stat-item {
+    justify-content: start;
+    gap: 20px;
+  }
+
+  .stat-item > *:first-child {
+    font-size: 1.5rem;
+  }
+
+  .stat-item h3 {
+    font-size: 1rem;
+  }
+
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .stat-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .stat-item > *:first-child {
+    font-size: 1.2rem;
+  }
+
+  .stat-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .stat-item p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,58 @@
+/* TopNavBar.css */
+.top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 5px;
+}
+
+.icons > * {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .top-nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icons > * {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-nav-bar {
+    padding: 5px;
+    gap: 5px;
+  }
+
+  .search-bar {
+    padding: 3px;
+  }
+
+  .icons {
+    gap: 10px;
+  }
+}

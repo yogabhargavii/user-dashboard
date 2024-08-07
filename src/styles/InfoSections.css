@@ -1,0 +1,44 @@
+/* InfoSections.css */
+.info-sections {
+  display: flex;
+  flex-direction: column;
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  height: auto;
+  gap: 30px;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.info-section > *:first-child {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.info-section h3 {
+  margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .info-sections {
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  .info-section {
+    flex-direction: row;
+    gap: 17px;
+  }
+  
+  .info-section > *:first-child {
+    font-size: 1.5rem;
+    margin-right: 0;
+  }
+}

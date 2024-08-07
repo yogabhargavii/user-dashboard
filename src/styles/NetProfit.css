@@ -1,0 +1,64 @@
+/* NetProfit.css */
+.net-profit {
+  background-color: #2f2f2f;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  padding: 5px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.chart-container {
+  position: relative;
+  width: 100px;
+}
+
+.chart-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+}
+
+.profit-details {
+  text-align: center;
+}
+
+.profit-details h2 {
+  margin: 10px 0;
+}
+
+.profit-details p {
+  margin: 5px 0;
+}
+
+.increase {
+  color: #4caf50;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .net-profit {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .chart-container {
+    width: 80px;
+  }
+  
+  .chart-text {
+    font-size: 1rem;
+  }
+  
+  .profit-details h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profit-details p {
+    font-size: 1rem;
+  }
+}
