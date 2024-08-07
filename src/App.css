@@ -1,4 +1,4 @@
-/* General Layout */
+
 .App {
   display: flex;
   flex-direction: column;
@@ -47,7 +47,6 @@
   gap: 20px;
 }
 
-/* Stat Item Styles */
 .stat {
   background-color: #2e2e2e;
   padding: 20px;
@@ -80,7 +79,6 @@
   margin-left: 10px;
 }
 
-/* Order Info Styles */
 .order-info {
   display: flex;
   align-items: center;
@@ -107,7 +105,6 @@
   color: red;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
   .stats-container {
     flex-direction: column;
@@ -162,7 +159,7 @@
 
 @media (max-width: 480px) {
   .side-menu {
-    display: none; /* Hide side menu on very small screens */
+    display: none; 
   }
 
   .content-container {

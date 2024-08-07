@@ -1,4 +1,3 @@
-/* NetProfit.css */
 .net-profit {
   background-color: #2f2f2f;
   border-radius: 10px;
@@ -38,7 +37,6 @@
   color: #4caf50;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .net-profit {
     flex-direction: column;

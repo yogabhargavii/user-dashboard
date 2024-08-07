@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Align items vertically centered */
+  align-items: center; 
   padding: 1rem;
   background-color: #333;
   color: #fff;
@@ -20,22 +20,21 @@
   cursor: pointer;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start of the column */
+    align-items: flex-start; 
     gap: 1rem;
     padding: 0.5rem;
   }
 
   .search-bar {
-    width: 100%; /* Full width on smaller screens */
+    width: 100%; 
   }
 
   .icons {
-    width: 100%; /* Full width on smaller screens */
-    justify-content: space-around; /* Distribute icons evenly */
+    width: 100%;
+    justify-content: space-around; 
   }
 }
 

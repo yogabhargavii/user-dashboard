@@ -1,4 +1,3 @@
-// SideMenu.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt, faList, faUtensils, faUsers, faFileAlt, faCogs, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';

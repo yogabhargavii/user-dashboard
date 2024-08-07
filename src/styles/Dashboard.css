@@ -1,4 +1,3 @@
-/* Dashboard.css */
 .dashboard {
   display: flex;
   flex-direction: column;
@@ -41,7 +40,6 @@
   border-radius: 8px;
 }
 
-/* Toggle button for mobile */
 .menu-toggle {
   display: none;
   background: none;

@@ -1,4 +1,3 @@
-// RecentOrders.js
 import React from "react";
 import "../styles/RecentOrders.css";
 
