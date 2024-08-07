@@ -8,7 +8,7 @@ const Feedback = () => (
     </div>
     <div className="colapse">
       <div className="feedback-item">
-        <div className="name">RISHI</div>
+        <div className="name">KAJAL</div>
         <div className="emmet">
           <p>⭐⭐⭐⭐⭐</p>
           <p>Great service!</p>
